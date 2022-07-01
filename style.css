@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap");
 
 * {
   padding: 0;
@@ -68,4 +69,149 @@
   list-style: none;
   width: 60%;
   padding: 0 24px 150px;
+}
+
+/* Work Section */
+
+.work-section {
+  display: grid;
+  padding: 20px 24px;
+  background-color: #e5e5e5;
+}
+
+.work-div {
+  justify-content: center;
+}
+
+.recent-work-underline hr {
+  height: 0px;
+  border: 1px solid #212121;
+}
+
+.work-div h1 {
+  padding: 100px 0 24px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-card img {
+  padding: 80px 0 24px;
+}
+
+.main-card-div h2 {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  padding: 0 0 12px;
+}
+
+.main-card-div p {
+  font-family: "Inter";
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 0 0 12px;
+}
+
+.main-card-div ul {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 0 12px;
+}
+
+.main-card-div li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.btn {
+  border: none;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.sub-card {
+  padding-top: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-card-div {
+  position: absolute;
+  bottom: 0;
+}
+
+.sub-card {
+  color: #fff;
+}
+
+.sub-card h2 {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  padding: 8px 16px 12px;
+  margin: 0;
+}
+
+.sub-card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0 16px 12px;
+  padding-right: 10%;
+}
+
+.sub-card ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 0 16px 22px;
+}
+
+.sub-card li {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.sub-card-btn {
+  width: 100%;
 }
