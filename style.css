@@ -84,13 +84,13 @@
 }
 
 .recent-work-underline hr {
-  height: 0px;
+  height: 0;
   border: 1px solid #212121;
 }
 
 .work-div h1 {
   padding: 100px 0 24px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -108,7 +108,7 @@
 }
 
 .main-card-div h2 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -118,7 +118,7 @@
 }
 
 .main-card-div p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   text-align: left;
   font-style: normal;
   font-weight: 400;
@@ -137,7 +137,7 @@
 }
 
 .main-card-div li {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -152,7 +152,7 @@
   width: 124px;
   height: 48px;
   background: #ff6b00;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -161,6 +161,7 @@
 }
 
 .sub-card {
+  color: #fff;
   padding-top: 24px;
   position: relative;
   display: flex;
@@ -172,28 +173,24 @@
   bottom: 0;
 }
 
-.sub-card {
-  color: #fff;
-}
-
 .sub-card h2 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
   padding: 8px 16px 12px;
   margin: 0;
 }
 
 .sub-card p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   margin: 0;
   padding: 0 16px 12px;
   padding-right: 10%;
@@ -231,7 +228,7 @@
 }
 
 .about-div h1 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -241,7 +238,7 @@
 }
 
 .about-div p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -254,12 +251,12 @@
 .about-btn {
   width: 161px;
   height: 48px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   align-self: flex-start;
 }
 
@@ -268,7 +265,7 @@
 }
 
 .about-me-underline hr {
-  height: 0px;
+  height: 0;
   border: 1px solid #fff;
   margin: 12px 24px 0;
 }
@@ -288,22 +285,22 @@
 }
 
 .about-section ul h3 {
-  font-family: "Meera Inimai";
+  font-family: "Meera Inimai", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
   padding: 0 0 26px;
 }
 
 .about-section li {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  color: #ffffff;
+  color: #fff;
   padding: 10px 0;
 }
 
