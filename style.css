@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
 
 * {
     padding: 0;
@@ -6,14 +8,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #1C1A19;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #3C3A39;
+    background-color: #3c3a39;
     color: white;
     padding: 12px 24px;
 }
@@ -22,4 +20,52 @@ body {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.main-heading {
+    font-family: "Crete Round";
+    font-weight: 400;
+    color: #ff6b00;
+    font-size: 56px;
+    padding: 120px 24px 0px 24px;
+    margin: 0;
+}
+
+.sub-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+    padding: 12px 24px;
+    margin: 0;
+}
+
+.main-body {
+    background-color: #1c1a19;
+    background-image: url(images/Main-Page-Design.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.main-body p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding: 0 24px 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 60%;
+    padding: 0 24px 150px;
 }
