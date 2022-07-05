@@ -333,3 +333,21 @@
   margin-right: 30px;
   padding-top: 26px;
 }
+
+/* Submit Section */
+.submit-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.submit-footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding: 120px 0 58px;
+  text-align: center;
+}
