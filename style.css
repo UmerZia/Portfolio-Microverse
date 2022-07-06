@@ -351,3 +351,36 @@
   padding: 120px 0 58px;
   text-align: center;
 }
+.submit-footer form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+}
+.submit-footer form ul li{
+  margin: 5px 0px;
+  width: 327px;
+}
+
+.submit-footer form ul li input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  outline: none;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.submit-footer-msg{
+  border: none;
+  background-color: #fbf8f7;
+  width: 100%;
+  height: 140px;
+  padding: 12px;
+  margin-top: 15px;
+}
+.submit-footer-btn{
+display: flex;
+justify-content: center;
+padding-top: 24px;
+}
