@@ -9,13 +9,20 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+.mainBody {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar-menu {
+  display: none;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   background-color: #3c3a39;
   color: white;
-  padding: 12px 24px;
+  padding: 12px 5%;
 }
 
 .logo {
@@ -33,7 +40,6 @@
   font-weight: 400;
   color: #ff6b00;
   font-size: 56px;
-  padding: 120px 24px 0 24px;
   margin: 0;
 }
 
@@ -43,15 +49,17 @@
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
-  padding: 12px 24px;
   margin: 0;
 }
 
 .main-body {
+  display: flex;
+  flex-direction: column;
   background-color: #1c1a19;
   background-image: url(images/Main-Page-Design.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
+  padding: 120px 5%;
 }
 
 .main-body p {
@@ -61,21 +69,20 @@
   font-size: 16px;
   line-height: 24px;
   color: white;
-  padding: 0 24px 20px;
+  margin: 0 0 24px;
 }
 
 .icon {
   display: flex;
-  justify-content: space-around;
+  gap: 21px;
   list-style: none;
-  width: 60%;
-  padding: 0 24px 150px;
 }
 
 /* Work Section */
 .work-section {
-  display: grid;
-  padding: 20px 24px;
+  padding: 0 5% 24px;
+  display: flex;
+  flex-direction: column;
   background-color: #e5e5e5;
 }
 
@@ -101,10 +108,7 @@
 .main-card {
   display: flex;
   flex-direction: column;
-}
-
-.main-card img {
-  padding: 80px 0 24px;
+  margin-top: 20px;
 }
 
 .main-card-div h2 {
@@ -130,10 +134,12 @@
 
 .main-card-div ul {
   display: flex;
-  width: 90%;
-  justify-content: space-between;
   list-style: none;
   padding: 0 0 12px;
+}
+
+.main-card-div ul li {
+  margin: 0 6px;
 }
 
 .main-card-div li {
@@ -161,11 +167,16 @@
 }
 
 .sub-card {
-  color: #fff;
-  padding-top: 24px;
-  position: relative;
   display: flex;
   flex-direction: column;
+  position: relative;
+  padding-top: 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.work-card-img {
+  object-fit: fill;
 }
 
 .sub-card-div {
@@ -199,8 +210,8 @@
 .sub-card ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: flex-start;
+  gap: 12px;
   padding: 0 16px 22px;
 }
 
@@ -222,6 +233,7 @@
 .about-div {
   display: flex;
   flex-direction: column;
+  padding: 0 5%;
   background-image: url(images/about-me-bkg.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -234,7 +246,7 @@
   font-size: 72px;
   line-height: 88px;
   color: #ff6b00;
-  padding: 120px 24px 0;
+  padding: 120px 0 0;
 }
 
 .about-div p {
@@ -245,7 +257,7 @@
   line-height: 24px;
   color: #f4f5f7;
   text-align: left;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .about-btn {
@@ -261,20 +273,20 @@
 }
 
 .about-btn-div {
-  padding: 0 24px 200px;
+  padding: 0 0 200px;
 }
 
 .about-me-underline hr {
   height: 0;
   border: 1px solid #fff;
-  margin: 12px 24px 0;
+  margin: 12px 0 0;
 }
 
 .about-me-techs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 128px;
+  padding: 128px 0;
 }
 
 .about-section ul {
@@ -406,4 +418,153 @@
   right: 0px;
   top: 0px;
   background: #dfe1e6;
+}
+
+.submit-footer-icon img {
+  filter: invert(34%) sepia(17%) saturate(768%) hue-rotate(179deg) brightness(99%) contrast(90%);
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+}
+.submit-footer-last-name {
+  visibility: hidden;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .empty {
+    flex: 1;
+  }
+
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  .main-body {
+    padding-left: 0;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(images/Illustration-header.svg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+  }
+
+  .main-text p {
+    margin-right: 25%;
+  }
+
+  .icon {
+    margin: 0 20px;
+  }
+
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+
+  .icon {
+    flex-direction: column;
+  }
+
+  .main-text {
+    display: flex;
+  }
+
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  .hand-burger {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
+  .main-card img {
+    width: 50%;
+    height: auto;
+  }
+  .main-card {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-card-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 24px;
+  }
+  .work-section {
+    width: auto;
+  }
+  .sub-card-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px;
+    width: 100%;
+    padding: 0 auto;
+  }
+
+  .sub-card .about-div {
+    background-image: url(images/About-Frame.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .about-div p {
+    margin-right: 50%;
+  }
+
+  .about-me-techs {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .main-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .main-form p {
+    width: 40vw;
+    text-align: left;
+  }
+  .submit-footer-last-name {
+    visibility: visible;
+    display: flex;
+    width: 300px;
+  }
+  .submit-footer-first-name {
+    width: 50%;
+  }
+  .submit-form {
+    width: 100%;
+  }
+  .submit-form ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .name-form {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+  .submit-footer-first-name {
+    width: 100%;
+  }
+  .submit-footer-last-name {
+    width: 100%;
+  }
+  .submit-footer-btn {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
