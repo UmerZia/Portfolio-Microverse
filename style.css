@@ -407,3 +407,19 @@
   top: 0px;
   background: #dfe1e6;
 }
+
+.btn:hover {
+  cursor: pointer;
+}
+.btn:active {
+  background: #ff8127;
+}
+
+.submit-footer-msg {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  outline: none;
+}
