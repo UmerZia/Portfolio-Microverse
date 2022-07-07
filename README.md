@@ -2,10 +2,6 @@
 
 # Portfolio: mobile version
 
-> Created Submit form with HTML5 validations.
-
-> Added button interactions
-
 ## Authors
 
 👤 **Umer Zia**
