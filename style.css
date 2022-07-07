@@ -9,14 +9,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .mainBody {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 .navbar-menu {
   display: none;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -132,16 +135,6 @@
   padding: 0 0 12px;
 }
 
-.main-card-div ul {
-  display: flex;
-  list-style: none;
-  padding: 0 0 12px;
-}
-
-.main-card-div ul li {
-  margin: 0 6px;
-}
-
 .main-card-div li {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -151,6 +144,31 @@
   color: #091e42;
   border: 1px solid #8993a4;
   padding: 10px 12px;
+}
+
+.about-section li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.sub-card li {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.main-card-div ul li {
+  margin: 0 6px;
+}
+
+.main-card-div ul {
+  display: flex;
+  list-style: none;
+  padding: 0 0 12px;
 }
 
 .btn {
@@ -213,11 +231,6 @@
   justify-content: flex-start;
   gap: 12px;
   padding: 0 16px 22px;
-}
-
-.sub-card li {
-  padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.24);
 }
 
 .sub-card-btn {
@@ -306,16 +319,6 @@
   padding: 0 0 26px;
 }
 
-.about-section li {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  color: #fff;
-  padding: 10px 0;
-}
-
 .diamond {
   width: 18px;
   height: 18px;
@@ -355,7 +358,7 @@
 }
 
 .submit-footer p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -364,14 +367,16 @@
   padding: 15px 0 58px;
   text-align: center;
 }
+
 .submit-footer form ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   list-style-type: none;
 }
+
 .submit-footer form ul li {
-  margin: 5px 0px;
+  margin: 5px 0;
   width: 100%;
 }
 
@@ -397,7 +402,14 @@
   height: 140px;
   padding: 12px;
   margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  outline: none;
 }
+
 .submit-footer-btn {
   display: flex;
   justify-content: center;
@@ -409,14 +421,14 @@
   justify-content: center;
   gap: 24px;
   list-style: none;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
 
 .break-line {
   height: 1px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
   background: #dfe1e6;
 }
 
@@ -428,9 +440,18 @@
   display: flex;
   flex-direction: column;
 }
+
 .submit-footer-last-name {
   visibility: hidden;
   display: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  background: #ff8127;
 }
 
 @media screen and (min-width: 768px) {
@@ -461,10 +482,6 @@
     margin-right: 25%;
   }
 
-  .icon {
-    margin: 0 20px;
-  }
-
   .main-text {
     display: flex;
     flex-direction: column;
@@ -473,15 +490,13 @@
 
   .icon {
     flex-direction: column;
-  }
-
-  .main-text {
-    display: flex;
+    margin: 0 20px;
   }
 
   .navbar-menu li {
     margin-left: 20px;
   }
+
   .hand-burger {
     visibility: hidden;
     height: 0;
@@ -492,19 +507,23 @@
     width: 50%;
     height: auto;
   }
+
   .main-card {
     flex-direction: row;
     justify-content: center;
   }
+
   .main-card-div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 24px;
   }
+
   .work-section {
     width: auto;
   }
+
   .sub-card-main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -528,43 +547,55 @@
     justify-content: space-around;
     align-items: flex-start;
   }
+
   .main-form {
     flex-direction: row;
     gap: 24px;
   }
+
   .main-form p {
     width: 40vw;
     text-align: left;
   }
+
   .submit-footer-last-name {
+    width: 100%;
     visibility: visible;
     display: flex;
-    width: 300px;
   }
-  .submit-footer-first-name {
-    width: 50%;
-  }
+
   .submit-form {
     width: 100%;
   }
+
   .submit-form ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
   }
+
   .name-form {
     display: flex;
     flex-direction: row;
     gap: 5%;
   }
+
   .submit-footer-first-name {
     width: 100%;
   }
-  .submit-footer-last-name {
-    width: 100%;
-  }
+
   .submit-footer-btn {
     display: flex;
     justify-content: flex-start;
+  }
+
+  .navbar-menu a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
   }
 }
