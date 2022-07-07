@@ -2,8 +2,6 @@
 
 # Portfolio: mobile version
 
-> For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
-
 ## Authors
 
 👤 **Umer Zia**
