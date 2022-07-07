@@ -2,7 +2,9 @@
 
 # Portfolio: mobile version
 
-> For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
+> Created Mobile first design from given figma's templates.
+> Added submission section
+> Added UIs adaptable to different screen sizes using media queries.
 
 ## Authors
 
