@@ -2,7 +2,9 @@
 
 # Portfolio: mobile version
 
-> For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
+> Created Submit form with HTML5 validations.
+
+> Added button interactions
 
 ## Authors
 
