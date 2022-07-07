@@ -336,9 +336,10 @@
 
 /* Submit Section */
 .submit-footer {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 0 24px;
+  padding: 120px 0 0;
 }
 
 .submit-footer p {
@@ -348,7 +349,7 @@
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  padding: 120px 0 58px;
+  padding: 15px 0 58px;
   text-align: center;
 }
 .submit-footer form ul {
@@ -357,9 +358,15 @@
   align-items: flex-start;
   list-style-type: none;
 }
-.submit-footer form ul li{
+.submit-footer form ul li {
   margin: 5px 0px;
-  width: 327px;
+  width: 100%;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
 }
 
 .submit-footer form ul li input {
@@ -371,7 +378,7 @@
   padding-bottom: 10px;
 }
 
-.submit-footer-msg{
+.submit-footer-msg {
   border: none;
   background-color: #fbf8f7;
   width: 100%;
@@ -379,8 +386,24 @@
   padding: 12px;
   margin-top: 15px;
 }
-.submit-footer-btn{
-display: flex;
-justify-content: center;
-padding-top: 24px;
+.submit-footer-btn {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 120px;
+}
+
+.submit-footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  margin: 24px 0px;
+}
+
+.break-line {
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #dfe1e6;
 }
