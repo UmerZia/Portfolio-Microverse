@@ -25,7 +25,7 @@
   justify-content: space-between;
   background-color: #3c3a39;
   color: white;
-  padding: 12px 5%;
+  padding: 12px 5% 10px 100px;
 }
 
 .logo {
@@ -469,6 +469,12 @@
     justify-content: space-between;
   }
 
+  .main-text p {
+    margin-right: 25%;
+    padding: 10px 0;
+    max-width: 45%;
+  }
+
   .main-body {
     padding-left: 0;
     flex-direction: row;
@@ -476,10 +482,6 @@
     background-image: url(images/Illustration-header.svg);
     background-repeat: no-repeat;
     background-size: 33%;
-  }
-
-  .main-text p {
-    margin-right: 25%;
   }
 
   .main-text {
@@ -490,7 +492,8 @@
 
   .icon {
     flex-direction: column;
-    margin: 0 20px;
+    margin: 0 40px;
+    gap: 15px;
   }
 
   .navbar-menu li {
@@ -504,7 +507,7 @@
   }
 
   .main-card img {
-    width: 50%;
+    width: 150%;
     height: auto;
   }
 
