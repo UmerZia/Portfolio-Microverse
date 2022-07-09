@@ -5,8 +5,11 @@
 This project is a task by microverse.
 
 > Created new repository and install linters.
+
 > Designed mobile first version.
+
 > Applied media query for web version.
+
 > Added animation for better user-experience.
 
 ## Language Used
