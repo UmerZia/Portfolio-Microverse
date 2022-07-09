@@ -1,6 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: mobile version
+# Portfolio Design
+
+This project is a task by microverse.
+
+> Created new repository and install linters.
+> Designed mobile first version.
+> Applied media query for web version.
+> Added animation for better user-experience.
+
+## Language Used
+
+- HTML
+- CSS
+
+## Live Demo
+[Website Link](https://umerzia.github.io/Portfolio-Microverse/)
 
 ## Authors
 
