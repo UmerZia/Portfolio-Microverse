@@ -605,6 +605,7 @@
   .sub-card-btn {
     visibility: hidden;
   }
+
   /* Animation */
   .btn:hover {
     border: #e45f00 solid 1px;
