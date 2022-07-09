@@ -25,7 +25,7 @@
   justify-content: space-between;
   background-color: #3c3a39;
   color: white;
-  padding: 12px 5% 10px 100px;
+  padding: 12px 5% 10px 5%;
 }
 
 .logo {
@@ -133,7 +133,6 @@
   line-height: 24px;
   color: #091e42;
   padding: 0 0 12px;
-  max-width: 80%;
 }
 
 .main-card-div li {
@@ -200,6 +199,7 @@
   color: #fff;
   height: 100%;
   max-width: 370px;
+  transition: 0.3s ease-out;
 }
 
 .work-card-img {
@@ -467,7 +467,6 @@
   }
 
   .main-text p {
-    margin-right: 25%;
     padding: 10px 0;
     max-width: 45%;
   }
@@ -504,6 +503,8 @@
   }
 
   .main-card img {
+    display: block;
+    width: 60%;
     height: auto;
   }
 
@@ -602,14 +603,22 @@
   }
 
   .sub-card-btn {
-    display: none;
+    visibility: hidden;
   }
   /* Animation */
   .btn:hover {
     border: #e45f00 solid 1px;
     cursor: pointer;
-    background-color: rgba(228, 95, 0, 0.3);
+    background-color: rgba(228, 95, 0, 0.5);
     color: #ff6a00;
+    transition: 0.3s;
+  }
+
+  .sub-card-btn:hover {
+    border: #e45f00 solid 1px;
+    cursor: pointer;
+    background-color: rgba(228, 95, 0, 0.8);
+    color: #fff;
   }
 
   .btn:active {
@@ -622,4 +631,20 @@
     color: #fff;
   }
 
+  .sub-card:hover > .sub-card-btn {
+    visibility: visible;
+    transition: 0.3s ease-in;
+  }
+
+  .sub-card:hover > .sub-card-div {
+    visibility: hidden;
+  }
+
+  .sub-card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.3s ease-in;
+    background-image: url(images/sub-card-hover.svg);
+    outline: #091e42 2px solid;
+  }
 }
