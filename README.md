@@ -1,8 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: mobile version
+# Portfolio Design
 
-> For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
+This project is a task by microverse.
+
+> Created new repository and install linters.
+
+> Designed mobile first version.
+
+> Applied media query for web version.
+
+> Added animation for better user-experience.
+
+## Language Used
+
+- HTML
+- CSS
+
+## Live Demo
+[Website Link](https://umerzia.github.io/Portfolio-Microverse/)
 
 ## Authors
 
