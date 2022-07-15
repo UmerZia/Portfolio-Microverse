@@ -17,6 +17,10 @@ This project is a task by microverse.
 - HTML
 - CSS
 
+## Preview
+
+<img src="images/web-mock.jpg" width=100%>
+
 ## Live Demo
 [Website Link](https://umerzia.github.io/Portfolio-Microverse/)
 
