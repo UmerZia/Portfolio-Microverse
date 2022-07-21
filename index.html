@@ -13,15 +13,31 @@
     <nav class="navbar">
       <div class="navbar__body">
         <a class="navbar__logo" href="#">Umer Zia</a>
-        <ul class="navbar__opt">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li>
-            <a href="#"><img src="images/inbox.svg" alt="inbox" /></a>
-          </li>
-        </ul>
-        <img class="navbar__hamburger" id="hamburger" src="images/Union.svg" alt="Menu Icon" />
+        <img
+          class="navbar__hamburger"
+          id="hamburger"
+          src="images/Union.svg"
+          alt="Menu Icon"
+        />
+        <div class="navbar__opt">
+          <ul class="navbar__opt__list">
+            <img
+              class="navbar__opt--cross"
+              id="close-hamburger"
+              src="images/cross-icon.svg"
+              alt="close"
+            />
+            <li><a href="#">Portfolio</a></li>
+            <li><div class="navbar--hamburger-break-line"></div></li>
+            <li><a href="#">About</a></li>
+            <li><div class="navbar--hamburger-break-line"></div></li>
+            <li><a href="#">Contact</a></li>
+            <li><div class="navbar--hamburger-break-line"></div></li>
+            <li class="navbar__opt--inbox">
+              <a href="#"><img src="images/inbox.svg" alt="inbox" /></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 

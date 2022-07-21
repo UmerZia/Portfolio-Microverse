@@ -2,6 +2,7 @@
   /* Navbar */
   .navbar__body {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 100vw;
   }
@@ -12,10 +13,32 @@
     justify-content: space-between;
   }
 
-  .navbar__opt {
+  .navbar__opt__list {
     display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 16px;
+    text-decoration: none;
+    list-style: none;
+    width: auto;
+    padding: 0;
+  }
+
+  .navbar__opt {
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     gap: 12px;
     text-decoration: none;
+    list-style: none;
+    width: auto;
+    height: auto;
+  }
+
+  .navbar__opt--cross {
+    display: none;
   }
 
   .navbar__opt a {
@@ -24,7 +47,7 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
   }
 
@@ -32,6 +55,15 @@
     display: none;
   }
 
+  .navbar__opt--inbox {
+    display: block;
+  }
+
+  .navbar--hamburger-break-line {
+    display: none;
+  }
+
+  /* Header Section */
   .main-text p {
     padding: 10px 0;
     max-width: 45%;
