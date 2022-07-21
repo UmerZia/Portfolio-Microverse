@@ -1,4 +1,4 @@
-const navSlide = () => {
+const hamburger = () => {
   const hamburgerMenuOpen = document.getElementsByClassName('navbar__hamburger');
   const hamburgerMenuExit = document.getElementsByClassName('navbar__opt--cross');
   const hamburgerMenuListItems = document.getElementsByClassName(
@@ -20,4 +20,4 @@ const navSlide = () => {
   });
 };
 
-navSlide();
+hamburger();
