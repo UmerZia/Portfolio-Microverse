@@ -5,6 +5,9 @@ const hamburger = () => {
     'navbar__opt__list--item',
   );
 
+  const browserWidth = window.innerWidth;
+  console.log(browserWidth);
+
   hamburgerMenuOpen[0].addEventListener('click', () => {
     document.getElementsByClassName('navbar__opt')[0].style.display = 'flex';
   });
