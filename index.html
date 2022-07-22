@@ -4,26 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaQuery.css" />
     <title>Umer Zia</title>
   </head>
   <body class="mainBody">
     <!-- Navbar -->
-    <header class="navbar">
-      <a class="logo" href="#">Umer Zia</a>
-      <div class="empty"></div>
-      <ul class="navbar-menu">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li>
-          <a href="#"><img src="images/inbox.svg" alt="inbox" /></a>
-        </li>
-      </ul>
-      <nav>
-        <img class="hand-burger" src="images/Union.svg" alt="Menu Icon" />
-      </nav>
-    </header>
+    <nav class="navbar">
+      <div class="navbar__body">
+        <a class="navbar__logo" href="#">Umer Zia</a>
+        <img
+          class="navbar__hamburger"
+          id="hamburger"
+          src="images/Union.svg"
+          alt="Menu Icon"
+        />
+        <div class="navbar__opt">
+          <ul class="navbar__opt__list">
+            <li class="navbar__opt--cross">
+              <img
+                class="navbar__opt--cross"
+                id="close-hamburger"
+                src="images/cross-icon.svg"
+                alt="close"
+              />
+            </li>
+            <li><a class="navbar__opt__list--item" href="#portfolio">Portfolio</a></li>
+            <li><div class="navbar--hamburger-break-line"></div></li>
+            <li><a class="navbar__opt__list--item" href="#about-me">About</a></li>
+            <li><div class="navbar--hamburger-break-line"></div></li>
+            <li><a class="navbar__opt__list--item" href="#contact">Contact</a></li>
+            <li><div class="navbar--hamburger-break-line"></div></li>
+            <li class="navbar__opt--inbox">
+              <a href="#"><img src="images/inbox.svg" alt="inbox" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Header Section -->
     <section class="main-body">
@@ -43,26 +61,36 @@
       <div>
         <ul class="icon">
           <li>
-            <a href="#"><img class="social" src="images/GitHub.svg" alt="GitHub" /></a>
+            <a href="#"
+              ><img class="social" src="images/GitHub.svg" alt="GitHub"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/Linkdin.svg" alt="Linkdin" /></a>
+            <a href="#"
+              ><img class="social" src="images/Linkdin.svg" alt="Linkdin"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/Hand-Icon.svg" alt="HandIcon" /></a>
+            <a href="#"
+              ><img class="social" src="images/Hand-Icon.svg" alt="HandIcon"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/Twitter.svg" alt="Twitter" /></a>
+            <a href="#"
+              ><img class="social" src="images/Twitter.svg" alt="Twitter"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/M-Icon.svg" alt="M-Icon" /></a>
+            <a href="#"
+              ><img class="social" src="images/M-Icon.svg" alt="M-Icon"
+            /></a>
           </li>
         </ul>
       </div>
     </section>
 
     <!-- Work Section -->
-    <section class="work-section">
+    <section id="portfolio" class="work-section">
       <div class="work-div">
         <h1>My Recent Works</h1>
         <div class="recent-work-underline">
@@ -192,7 +220,7 @@
     </section>
 
     <!-- About Me -->
-    <section class="about-section">
+    <section id="about-me" class="about-section">
       <div class="about-div">
         <h1>About me</h1>
         <p>
@@ -252,7 +280,7 @@
     </section>
 
     <!-- Submit Section -->
-    <footer class="submit-footer">
+    <footer id="contact" class="submit-footer">
       <div class="main-form">
         <p>
           I'm always interested in hearing about new projects, so if you'd like
@@ -318,22 +346,35 @@
       <div>
         <ul class="submit-footer-icon">
           <li>
-            <a href="#"><img class="social" src="images/GitHub.svg" alt="GitHub" /></a>
+            <a href="#"
+              ><img class="social" src="images/GitHub.svg" alt="GitHub"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/Linkdin.svg" alt="Linkdin" /></a>
+            <a href="#"
+              ><img class="social" src="images/Linkdin.svg" alt="Linkdin"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/Hand-Icon.svg" alt="HandIcon" /></a>
+            <a href="#"
+              ><img class="social" src="images/Hand-Icon.svg" alt="HandIcon"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/Twitter.svg" alt="Twitter" /></a>
+            <a href="#"
+              ><img class="social" src="images/Twitter.svg" alt="Twitter"
+            /></a>
           </li>
           <li>
-            <a href="#"><img class="social" src="images/M-Icon.svg" alt="M-Icon" /></a>
+            <a href="#"
+              ><img class="social" src="images/M-Icon.svg" alt="M-Icon"
+            /></a>
           </li>
         </ul>
       </div>
     </footer>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
   </body>
 </html>
